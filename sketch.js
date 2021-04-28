@@ -119,7 +119,7 @@ function draw() {
     }
   }
   camera.position.x = trex.position.x ;
-  camera.position.y = displayHeight/2;
+  camera.position.y = trex.position.y;
   
   drawSprites();
 }
